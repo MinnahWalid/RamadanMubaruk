@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ramadan Kareem</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section>
+        <img src="8317.jpg" class="mosque">
+        <header>
+            <a href="" class="logo">Ramadan</a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li><a href="" style="--i:1;" class="active">Home</a></li>
+                <li><a href="" style="--i:2;">About</a></li>
+                <li><a href="" style="--i:3;">Calendar</a></li>
+                <li><a href="" style="--i:4;">Blog</a></li>
+                <li><a href="" style="--i:5;">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+
+            <div class="text-box">
+                <h2> Happy Ramadan Kareem</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusantium deleniti quae
+                    quod
+                    maiores modi odio ea mollitia accusamus rerum. Qui magni aut sint similique iste necessitatibus
+                    architecto, magnam laborum?
+                </p>
+
+                <a href="">Read More</a>
+            </div>
+
+        </div>
+
+        <ul class="sci">
+            <li><a href="" style="--i:12;"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="" style="--i:13;"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="" style="--i:14;"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+    </section>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function () {
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
